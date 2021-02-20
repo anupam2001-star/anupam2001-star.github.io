@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            background: url('http://haustechnologies.com/wp-content/uploads/2015/07/Android-Lollipop-wallpapers-5.jpg') no-repeat center center/cover;
+        }
+
+        .item{
+            position: absolute;
+            margin-left: 450px;
+            background-color: white;
+            height: 325px;
+            width: 34%;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .form-group input{
+            margin: 13px 2px;
+            padding: 9px 170px;
+        }
+        .item h2{
+            font-family: cursive;
+            color: black;
+            margin-left: 180px;
+        }
+        .btn{
+            box-shadow: 2px 3px 2px black;
+            border-radius: 5px;
+            color: white;
+            background-color: black;
+            border: 2px solid white;
+            margin-left: 180px;
+         
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="item">
+        <h2>Contact me</h2>
+        <form action="backend.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="First-Name Last-Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="mail@example.com">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your message here..">
+            </div>
+            <button class="btn">Send Message</button>
+        </form>
+    </div>
+</body>
+
+</html>
